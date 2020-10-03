@@ -1,4 +1,10 @@
 body{
     
-    background-color: black;
+    
+}
+.body{
+    max-width: 450px;
+    background-color: black ;
+    margin-left: auto;
+    margin-right: auto;
 }
