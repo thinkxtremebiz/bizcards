@@ -1,12 +1,44 @@
 body{
    background-color: gray !important; 
    
-    
 }
+hr {
+    color: #333;
+    background-color: #333; 
+}
+
+/*-------------------------------------- Classes---------------------------*/
 .body{
-    max-width: 45%;
+    max-width: 450px;
     background-color: white ;
     height: 2000px;
     margin: 20px auto 20px auto;
     position: relative;
+    text-align: center;
+}
+
+
+
+
+/*------------------------------ IDs --------------------------------------------*/
+#bg_img{
+    background-image: url("assets/background_image_small.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    height: 300px;
+    width: cover;
+}
+#photo{
+    height:200px;
+    position: absolute;
+    left: 150px;
+    top: 200px;  
+}
+#contacts{
+    text-align: left;
+    margin-left: 90px;
+    margin-top: 70px;
+    line-height: 3rem;
+
 }
