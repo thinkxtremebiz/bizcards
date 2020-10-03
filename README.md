@@ -1,2 +1,0 @@
-# bizcards
-hosting buissness cards 
