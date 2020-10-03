@@ -85,6 +85,7 @@ hr {
     position: absolute;
     left: 150px;
     top: 200px;  
+    border: black solid 1px;
 }
 #contacts{
     text-align: left;
