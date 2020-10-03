@@ -11,10 +11,10 @@ hr {
 .body{
     max-width: 450px;
     background-color: white ;
-    height: 2000px;
     margin: 20px auto 20px auto;
     position: relative;
     text-align: center;
+    padding: 0 0 30px 0;
 }
 
 
@@ -37,8 +37,36 @@ hr {
 }
 #contacts{
     text-align: left;
-    margin-left: 90px;
+    margin-left: 60px;
     margin-top: 70px;
-    line-height: 3rem;
+    line-height: 5rem;
+    font-size: 1.25rem;
 
+}
+#contacts i{
+    font-size: 2rem;
+    color: red;
+}
+#contacts span{
+    margin-left: 40px;
+}
+#contacts div:nth-child(4) i{
+    margin-left: -3px;
+}
+#contacts div:nth-child(3) span{
+    margin-left: 37px;
+}
+#contacts div:nth-child(4) span{
+    font-size: 1.15rem;
+    margin-left: 37px;
+}
+#contacts div:nth-child(5) span{
+    margin-left: 49px;
+}
+#socialmedia{
+    margin: 70px 0 0 0;
+}
+#socialmedia i{
+    font-size: 2rem;
+    margin: 0 2rem 0 2rem;
 }
