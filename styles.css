@@ -3,7 +3,7 @@
 /*------------------------------elements------------------------------------------*/
 
 body{
-   background-color: gray !important; 
+   background-color: #97a0a155 !important; 
    
 }
 hr {
@@ -13,6 +13,7 @@ hr {
 
 /*-------------------------------------- Classes---------------------------*/
 .body{
+    border: black solid 5px;
     max-width: 450px;
     background-color: white ;
     margin: 20px auto 20px auto;
@@ -60,6 +61,15 @@ hr {
     margin: 5px 5px 5px 5px;
     
 }
+.body:nth-child(4) button:nth-child(3){
+    width: 70%;
+    
+}
+.body:nth-child(4) button:nth-child(4){
+    width: 70%;
+    
+}
+
 
 /*------------------------------ IDs --------------------------------------------*/
 #bg_img{
