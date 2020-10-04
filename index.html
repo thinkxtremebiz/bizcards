@@ -26,8 +26,8 @@
 <body>
     
 <div class="body">
-<!--end of collapsable-button-->
-<div id="bg_img"><nav class="navbar navbar-expand-lg ">
+<!--collapsable-button-->
+<div id="bg_img"><nav class="navbar navbar-expand-lg">
     <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,24 +67,27 @@
     </div>
 </nav>
 </div>
+<!--end of collapsable-button-->
 <img id="photo" src="assets/photo.jpg" alt="photo">
 <br><br><br><br><br>
 <h3>Mr. Rajesh Prabakaran</h3>
 <hr style="width: 90%; height: 5px;">
 <h5>DIGITAL MARKETING CONSULTANT</h5>
 <div id="contacts">
-<div><i class="fa fa-phone" aria-hidden="true"  style="color:  #00acee;"></i><span>+917397457608</span></div>
-<div><i class="fa fa-phone" aria-hidden="true" style="color: #00acee;"></i><span>+919500201608</span></div>
-<div><i class="fa fa-whatsapp" aria-hidden="true" style="color: #075e54;"></i><span>+917397457608</span></div>
-<div><i class="fa fa-envelope" aria-hidden="true" style="color: #d44638;"></i><span>rajeshprabakaran1988@outlook.com</span></div>
-<div><i class="fa fa-map-marker" aria-hidden="true" style="color: #EA4335;"></i><span>Vellore, Tamil Nadu</span></div>
+<div><a href="tel:917397457608"><i class="fa fa-phone" aria-hidden="true"  style="color:  #00acee;"></i><span>+917397457608</span></a></div>
+<div><a href="tel:919500201608"><i class="fa fa-phone" aria-hidden="true" style="color: #00acee;"></i><span>+919500201608</span></a></div>
+<div><a href="https://api.whatsapp.com/send?phone=917397457608" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true" style="color: #075e54;"></i><span>+917397457608</span></a></div>
+<div><a href="mailto:rajeshprabakaran1988@outlook.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true" style="color: #d44638;"></i><span>rajeshprabakaran1988@outlook.com</span></a></div>
+<div><a href=""><i class="fa fa-map-marker" aria-hidden="true" style="color: #EA4335;"></i><span>Vellore, Tamil Nadu</span></a></div>
 </div>
+<!--Social Media-->
 <div id="socialmedia">
-<i class="fa fa-facebook-official" aria-hidden="true" style="color: #3B5998;"></i>  
-<i class="fa fa-instagram" aria-hidden="true" style="color: #3f729b;"></i>
-<i class="fa fa-linkedin-square" aria-hidden="true" style="color: #0e76a8;"></i>
-<i class="fa fa-twitter-square" aria-hidden="true" style="color: #00acee;"></i>
+<a href="https://www.facebook.com/rajesh.prabakaran.9" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true" style="color: #3B5998;"></i></a>  
+<a href="https://www.instagram.com/prabakaranrajesh/" target="_blank"><i class="fa fa-instagram" aria-hidden="true" style="color: #3f729b;"></i></a>
+<a href="https://www.linkedin.com/in/rajesh-prabakaran-9155771ab" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" style="color: #0e76a8;"></i></a>
+<a href="https://twitter.com/Rajesh75142922?s=08" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true" style="color: #00acee;"></i></a>
 </div>
+<!--end of social media-->
 </div>
 <div class="body">
 <h3>About Us</h3>
@@ -114,20 +117,17 @@
     <br>
     <h4>UPI Details</h4>
     <!--tabs-->
-    <ul class="nav nav-tabs" id="tabs">
-        <li class="nav-item">
-          <a class="nav-link active" href="#QR">QR Code</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#UPIID">UPI ID</a>
-        </li>
+      <ul class="nav nav-tabs">
+        <li class="nav-item"><a href="#a" class="nav-link active" data-toggle="tab">QR CODE</a></li>
+        <li class="nav-item"><a href="#b" class="nav-link"  data-toggle="tab">UPI ID</a></li>
       </ul>
-      <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="QR" role="tabpanel" aria-labelledby="nav-home-tab">
-        
+    
+      <div class="tab-content">
+        <div class="tab-pane active" id="a">
+            <img src="assets/qr_code.jpeg">
         </div>
-        <div class="tab-pane fade" id="UPIID" role="tabpanel" aria-labelledby="nav-profile-tab">
-            <p>UPI ID:<span></span></p>
+        <div class="tab-pane" id="b">
+            <p>UPI ID:<span>50100059131228</span></p>
         </div>
       </div>
       <!--end of tabs-->
